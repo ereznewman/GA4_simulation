@@ -24,4 +24,16 @@ ORDER BY users DESC
 
 --What is the average price of products by category?
 
+SELECT category,ROUND(AVG(price),3) as AVG_price FROM products
+GROUP BY category
+ORDER BY AVG_price DESC
+
 --Which products resulted in the highest purchase events?
+
+SELECT events.product_id,products.product_name, COUNT(events.event_type) AS purchases FROM events
+INNER JOIN products ON events.product_id=products.product_id
+WHERE event_type='purchase'
+GROUP BY events.product_id,products.product_name
+ORDER BY purchases DESC
+
+
