@@ -1,11 +1,11 @@
 product_id,product_name,category,price
-p001,Product_1,Electronics,199.99
-p002,Product_2,Toys,29.99
-p003,Product_3,Home,149.50
-p004,Product_4,Books,15.00
-p005,Product_5,Fashion,49.99
-p006,Product_6,Electronics,299.99
-p007,Product_7,Toys,19.99
-p008,Product_8,Home,89.99
-p009,Product_9,Books,12.50
-p010,Product_10,Fashion,79.99
+p001,Smartphone X,Electronics,699.99
+p002,Laptop Pro,Electronics,1299.49
+p003,Coffee Maker,Home Appliances,99.95
+p004,Vacuum Cleaner,Home Appliances,159.99
+p005,Running Shoes,Sportswear,79.99
+p006,Tennis Racket,Sportswear,120.00
+p007,Desk Lamp,Furniture,45.50
+p008,Office Chair,Furniture,199.99
+p009,Blender,Home Appliances,89.99
+p010,Wireless Headphones,Electronics,199.00
