@@ -1,4 +1,5 @@
-SQL-based analysis of a simulated Google Analytics 4 (GA4) dataset, exploring user behavior, product interactions, session dynamics, and event tracking.
+SQL-based analysis of a simulated Google Analytics 4 (GA4) account database that I created.
+Exploring website traffic - user behavior, product interactions, session dynamics, and event tracking.
 
 **Goals**
 
@@ -27,7 +28,7 @@ pgAdmin 4
 
 04_events_analysis.sql — Investigate event types, counts, and user engagement
 
-/data (folder) — CSV files containing the dataset for import:
+/data (folder) — CSV files containing the database for import:
 
 users.csv, products.csv, sessions.csv, events.csv
 
