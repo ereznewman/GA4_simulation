@@ -1,6 +1,3 @@
-**GA4_simulation
-**
-
 SQL-based analysis of a simulated Google Analytics 4 (GA4) dataset, exploring user behavior, product interactions, session dynamics, and event tracking.
 
 **Goals**
@@ -13,14 +10,12 @@ SQL-based analysis of a simulated Google Analytics 4 (GA4) dataset, exploring us
 
 -Exploring event trends over time and user journeys
 
-**Tools Used
-**
+**Tools Used**
 
-PostgreSQL
+PostgreSQL,
 pgAdmin 4
 
-**File Structure
-**
+**File Structure**
 
 00_create_tables.sql — SQL script to create database schema (tables and constraints)
 
@@ -34,31 +29,23 @@ pgAdmin 4
 
 /data (folder) — CSV files containing the dataset for import:
 
-users.csv
+users.csv, products.csv, sessions.csv, events.csv
 
-products.csv
-
-sessions.csv
-
-events.csv
-
-**Data
-**
+**Data**
 
 This project includes simulated GA4 data exported as CSV files located in the /data folder.
 
 CSV files:
 
 users.csv — User profiles and IDs
-
 products.csv — Product catalog with categories and prices
-
 sessions.csv — Session records including timestamps and traffic sources
-
 events.csv — Event logs tracking user interactions
 
 To set up the database:
 
--Create the tables by running 00_create_tables.sql in PostgreSQL (e.g., via pgAdmin).
--Import the CSV files into their corresponding tables using PostgreSQL's COPY command or pgAdmin import tool.
--Run the analysis queries from the respective .sql files.
+1.Create the tables by running 00_create_tables.sql in PostgreSQL (e.g., via pgAdmin).
+
+2.Import the CSV files into their corresponding tables using PostgreSQL's COPY command or pgAdmin import tool.
+
+3.Run the analysis queries from the respective .sql files.
