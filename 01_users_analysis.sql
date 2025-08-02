@@ -8,7 +8,7 @@ LIMIT 5
 
 --How many distinct users visited the site in total?
 
-SELECT DISTINCT COUNT(user_id) AS visitors FROM sessions
+SELECT COUNT(DISTINCT user_id) AS visitors FROM sessions;
 
 --Which users have the highest number of purchases (events)?
 
