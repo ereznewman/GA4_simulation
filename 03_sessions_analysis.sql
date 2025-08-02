@@ -22,4 +22,9 @@ GROUP BY Day
 
 --What is the average number of sessions per user?
 
-
+SELECT AVG(session_count) AS avg_sessions_per_user
+FROM (
+    SELECT user_id, COUNT(*) AS session_count
+    FROM sessions
+    GROUP BY user_id
+) AS user_sessions;
