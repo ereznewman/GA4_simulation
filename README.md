@@ -45,10 +45,9 @@ sessions.csv — Session records including timestamps and traffic sources
 
 events.csv — Event logs tracking user interactions
 
-To set up the database:
+**To Set up Database:**
+1. Create the tables by running 00_create_tables.sql in PostgreSQL (e.g., via pgAdmin).
 
-1.Create the tables by running 00_create_tables.sql in PostgreSQL (e.g., via pgAdmin).
+2. Import the CSV files into their corresponding tables using PostgreSQL's COPY command or pgAdmin import tool.
 
-2.Import the CSV files into their corresponding tables using PostgreSQL's COPY command or pgAdmin import tool.
-
-3.Run the analysis queries from the respective .sql files.
+3. Run the analysis queries from the respective .sql files.
