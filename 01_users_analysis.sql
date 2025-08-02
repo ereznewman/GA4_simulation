@@ -25,7 +25,7 @@ GROUP BY country
 
 --Which users have the longest average session duration?
 
-SELECT users.user_id,first_name,last_name, SUM(end_time-start_time) AS duration FROM sessions
+SELECT users.user_id,first_name,last_name, TO_CHAR(AVG(end_time-start_time),'HH24:MI:SS') AS AVG_duration FROM sessions
 INNER JOIN users ON users.user_id=sessions.user_id
 GROUP BY users.user_id,first_name,last_name
-ORDER BY duration DESC
+ORDER BY AVG_duration DESC
