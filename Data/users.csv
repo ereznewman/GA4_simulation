@@ -2,7 +2,7 @@ user_id,user_pseudo_id,first_name,last_name,email,country
 u001,abc123,Anna,Smith,anna@example.com,USA
 u002,def456,Bob,Johnson,bob@example.com,Canada
 u003,ghi789,Clara,Williams,clara@example.com,UK
-u004,jkl012,David,Brown,david@example.com,USA
+u004,jkl012,Jose,Mende,Jose@example.com,Spain
 u005,mno345,Emma,Davis,emma@example.com,Canada
 u006,pqr678,Frank,Miller,frank@example.com,UK
 u007,stu901,Grace,Wilson,grace@example.com,USA
