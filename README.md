@@ -38,8 +38,11 @@ This project includes simulated GA4 data exported as CSV files located in the /d
 CSV files:
 
 users.csv — User profiles and IDs
+
 products.csv — Product catalog with categories and prices
+
 sessions.csv — Session records including timestamps and traffic sources
+
 events.csv — Event logs tracking user interactions
 
 To set up the database:
