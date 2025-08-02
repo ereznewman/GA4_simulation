@@ -5,17 +5,17 @@ SQL-based analysis of a simulated Google Analytics 4 (GA4) dataset, exploring us
 **Goals:
 **
 
-Analyzing user behavior and engagement patterns
+-Analyzing user behavior and engagement patterns
 
-Understanding product interactions and sales funnels
+-Understanding product interactions and sales funnels
 
-Examining session characteristics and traffic sources
+-Examining session characteristics and traffic sources
 
-Exploring event trends over time and user journeys
+-Exploring event trends over time and user journeys
 
 **Tools used:**
-PostgreSQL
 
+PostgreSQL
 pgAdmin 4
 
 **File structure:**
