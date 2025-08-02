@@ -17,7 +17,7 @@ ORDER BY product_add DESC
 
 --How many unique users interacted with each product?
 
-SELECT events.product_id,product_name,COUNT(*) AS users FROM events
+SELECT events.product_id,product_name,COUNT(DISTINCT events.user_id) AS users FROM events
 INNER JOIN products ON events.product_id = products.product_id
 GROUP BY events.product_id,product_name
 ORDER BY users DESC
